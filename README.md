@@ -1,7 +1,7 @@
 #PTE
 This is an implementation of the PTE model for learning predictive text embeddings [(PTE: Predictive Text Embedding through Large-scale Heterogeneous Text Networks)](https://arxiv.org/abs/1508.00200). 
 Our codes consist of three parts. Codes in the "text2hin" folder are used to generate heterogeneous text networks from raw text data. We put the codes of the PTE model in the "pte" folder, which learn predictive word representations given a heterogeneous text network. After getting the word representations, we will use the "text2vec" folder to infer the embeddings of some given texts, e.g., documents, sentences.
-We also provide four datasets used in the PTE paper, which can be found in the "data" folder. Each dataset has five files.
+We also provide four datasets used in the PTE paper, which are the 20 newsgroups (20NG), IMDB (IMDB), DBLP titles (DBLP), moview review (MR) datasets. The data can be found in the "data" folder.
 
 ##Install
 Our codes rely on two external packages, which are the Eigen package and GSL package.
@@ -27,7 +27,6 @@ To run our codes, users may directly modify the training script (run.sh) we prov
 ```
 Meng Qu, qumn123@gmail.com
 Jian Tang, tangjianpku@gmail.com
-
 ```
 
 ##Citation
