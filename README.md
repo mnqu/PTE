@@ -32,7 +32,7 @@ Meng Qu, qumn123@gmail.com
 Jian Tang, tangjianpku@gmail.com
 ```
 
-##Citation
+## Citation
 ```
 @inproceedings{tang2015pte,
 title={Pte: Predictive text embedding through large-scale heterogeneous text networks},
