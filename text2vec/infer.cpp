@@ -4,7 +4,7 @@
 #include <math.h>
 #include <vector>
 
-#define MAX_STRING 100
+#define MAX_STRING 10000
 
 const int hash_table_size = 30000000;
 

@@ -8,7 +8,7 @@
 #include <Eigen/Dense>
 #include <iostream>
 
-#define MAX_STRING 500
+#define MAX_STRING 10000
 #define EXP_TABLE_SIZE 1000
 #define MAX_EXP 6
 const int neg_table_size = 1e8;
