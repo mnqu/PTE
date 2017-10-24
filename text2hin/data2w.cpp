@@ -4,7 +4,7 @@
 #include <string>
 #include <math.h>
 #include <map>
-#define MAX_STRING 100
+#define MAX_STRING 10000
 using namespace std;
 
 const int hash_table_size = 30000000;
